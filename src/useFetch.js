@@ -22,7 +22,7 @@ const useFetch = (url) => {
           setError( null );
         } )
         .catch( err => {
-          if (err.name === 'AbortError') {
+          if (abortCont.signal.aborted) {  // https://stackoverflow.com/questions/61741423
             console.log( 'fetch error' )
           } else {
             setIsPending( false );
@@ -32,7 +32,7 @@ const useFetch = (url) => {
     }, 1000 );
 
     return () => abortCont.abort();
-  }, [url] ); //only runs on initial render withour dependencies
+  }, [url] ); //only runs on initial render without dependencies
 
   return { data, isPending, error };
 }
