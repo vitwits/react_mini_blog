@@ -19,12 +19,6 @@
       "id": 3
     },
     {
-      "title": "Cats",
-      "body": "Why cats are so important?  sdfasdfsdf",
-      "author": "yoshi",
-      "id": 4
-    },
-    {
       "title": "Thunderstorm",
       "body": "Why thunderstorms are happening",
       "author": "yoshi",
@@ -37,22 +31,10 @@
       "id": 6
     },
     {
-      "title": "vDfs",
-      "body": "GEWFwfweewfwef",
-      "author": "mario",
-      "id": 7
-    },
-    {
       "title": "Some new",
       "body": "Blog I created",
       "author": "mario",
       "id": 8
-    },
-    {
-      "title": "Vsd;",
-      "body": "Dfsdfspdfoisdpof",
-      "author": "mario",
-      "id": 9
     }
   ]
 }
